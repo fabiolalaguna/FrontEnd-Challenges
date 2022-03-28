@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="normalize.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Chat app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg"></div>
+
+      <div class="phone-wrapper">
+        <div class="bg-app">
+          <div class="perfil-top">
+            <div class="border"></div>
+
+            <div class="perfil-items">
+              <ion-icon
+                name="chevron-back-outline"
+                class="icon-left"
+              ></ion-icon>
+
+              <img
+                src="images/avatar.jpg"
+                alt="Samuel Green Profile Photo"
+                class="profile-img"
+              />
+
+              <!-- <div class="perfil-name"> -->
+              <p class="name">Samuel green</p>
+              <p class="time">Available to walk</p>
+              <!-- </div> -->
+
+              <ion-icon
+                name="ellipsis-vertical-outline"
+                class="icon-points"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <div class="conversation">
+            <div class="part-1">
+              <p class="text-1">
+                That sounds great. <span class="span-text-1">I</span>'d be happy
+                with that.
+              </p>
+
+              <p class="text-1">
+                Could you send over some pictures of your dog, please?
+              </p>
+            </div>
+
+            <div class="part-2">
+              <div class="part-2-img">
+                <img
+                  src="images/dog-image-1.jpg"
+                  alt="dog smiling"
+                  class="dog-img"
+                />
+                <img
+                  src="images/dog-image-2.jpg"
+                  alt="dog sit"
+                  class="dog-img"
+                />
+                <img
+                  src="images/dog-image-3.jpg"
+                  alt="dog sit"
+                  class="dog-img"
+                />
+              </div>
+
+              <div class="part-2-text">
+                <p class="text-2">
+                  Here are a few pictures. She's a happy girl!
+                </p>
+                <p class="text-2 text-2-right">Can you make it?</p>
+              </div>
+            </div>
+
+            <div class="part-3">
+              <p class="text-3">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+
+              <div class="pricing-1">
+                <input type="radio" name="check" class="input-check" />
+                <p class="pricing-text">30 minute walk</p>
+                <p class="pricing-number">$29</p>
+              </div>
+
+              <div class="pricing-2">
+                <input type="radio" name="check" class="input-check" />
+                <p class="pricing-text">1 hour walk</p>
+                <p class="pricing-number">$49</p>
+              </div>
+            </div>
+
+            <div class="send">
+              <p class="send-text">Type a message...</p>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="icon-right"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-heading">
+        <h1 class="heading">Simple booking</h1>
+        <p class="paragraph">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+
+      <div class="bg-bottom-right"></div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Fabiola Laguna</a>.
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

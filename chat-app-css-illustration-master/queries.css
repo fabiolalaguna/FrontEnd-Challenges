@@ -1,0 +1,246 @@
+/* 1440px */
+@media (max-width: 90em) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .bg {
+    width: 40rem;
+    height: 65rem;
+    border-bottom-left-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+  }
+
+  .phone-wrapper {
+    height: 60rem;
+    left: 33rem;
+    width: 30rem;
+    border-radius: 4rem;
+    top: 3rem;
+  }
+  .perfil-top {
+    height: 8rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+  }
+
+  .icon-left {
+    font-size: 2rem;
+  }
+
+  .profile-img {
+    width: 3rem;
+    height: 3rem;
+    top: 3.3rem;
+  }
+
+  .text-1,
+  .text-2,
+  .text-3 {
+    font-size: 1.2rem;
+  }
+
+  .pricing-1,
+  .pricing-2 {
+    width: 18rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing-text {
+    font-size: 1.2rem;
+  }
+
+  .pricing-number {
+    font-size: 1.4rem;
+  }
+
+  .send {
+    width: 26rem;
+    bottom: 0.5rem;
+  }
+  .icon-right {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .main-heading {
+    left: 70%;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+  }
+  .paragraph {
+    font-size: 2rem;
+    width: 50rem;
+    text-align: left;
+  }
+  .bg-bottom-right {
+    height: 65rem;
+  }
+
+  .attribution {
+    padding: 1rem 0;
+  }
+}
+
+/* 650px */
+@media (max-width: 40.625em) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bg {
+    width: 25rem;
+    height: 40rem;
+
+    position: absolute;
+    left: -5rem;
+  }
+
+  .bg-app {
+    border-radius: 4rem;
+  }
+
+  .bg-bottom-right {
+    display: none;
+  }
+
+  .phone-wrapper {
+    width: 27rem;
+    height: 54rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4rem;
+    box-shadow: 10px 9px 51px -5px rgba(0, 0, 0, 0.51);
+  }
+
+  .perfil-top {
+    height: 7rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+  }
+
+  .icon-left {
+    font-size: 1.5rem;
+    top: 3.3rem;
+  }
+
+  .profile-img {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    top: 3.3rem;
+    left: 4rem;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+  }
+  .name {
+    top: 2rem;
+  }
+
+  .time {
+    top: 3.5rem;
+  }
+
+  .time,
+  .name {
+    left: 8rem;
+    font-size: 1.2rem;
+  }
+
+  .icon-points {
+    font-size: 1.5rem;
+    right: 1rem;
+  }
+
+  .text-1,
+  .text-2,
+  .text-3 {
+    font-size: 1rem;
+  }
+
+  .text-1 {
+    width: 15rem;
+  }
+
+  .text-2 {
+    width: 15rem;
+  }
+  .text-2-right {
+    width: 10rem;
+  }
+
+  .dog-img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .text-3 {
+    width: 15rem;
+  }
+
+  .pricing-1,
+  .pricing-2 {
+    width: 18rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pricing-text {
+    font-size: 1rem;
+  }
+
+  .pricing-number {
+    font-size: 1.2rem;
+  }
+
+  .send-text {
+    font-size: 1rem;
+  }
+
+  .send {
+    width: 22rem;
+    bottom: 2rem;
+  }
+  .icon-right {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .main-heading {
+    left: 50%;
+    top: 85%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+  }
+  .paragraph {
+    font-size: 1.8rem;
+    width: 35rem;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: -32rem;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+/* 375px */
+@media (max-width: 23.43em) {
+  /* html {
+    font-size: 40%;
+  } */
+
+  .phone-wrapper {
+    width: 25rem;
+  }
+
+  .main-heading {
+    top: 110%;
+  }
+}
